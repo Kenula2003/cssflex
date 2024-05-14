@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.sidebar{
+    height: 100vh;
+    width: 200px;
+    background-color: blanchedalmond;
+    color: aqua;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 7px;
+    
+    
+}
+.logo img{
+    max-width: 100%;
+    height: auto;
+}
+.navigation a{
+    color: #2b2b2b;
+    text-decoration: none;
+    margin-right: 4px;
+    
+    
+   
+
+}
+.navigation a:hover{
+    color: #2b2bb2;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.name{
+    color: black;
+    justify-content: end;
+    align-content: center;
+    align-items: center;
+    margin-inline-start: 50px;
+    
+}
